@@ -7,6 +7,7 @@ export const Home = () => {
   const handleNavigate = () => {
     navigate('/books'); // Or '/book-list' depending on your routing
   };
+ 
 
   return (
     <main className="min-h-screen flex items-center justify-center px-4">
