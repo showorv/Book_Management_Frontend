@@ -4,7 +4,7 @@ import { createApi } from '@reduxjs/toolkit/query/react'
 export const baseApi = createApi({
     reducerPath: "baseApi",
     baseQuery: fetchBaseQuery({
-        baseUrl: "http://localhost:5500/api",
+        baseUrl: "https://book-management-wine-rho.vercel.app/api",
        
       }),
     tagTypes: ["book"],
