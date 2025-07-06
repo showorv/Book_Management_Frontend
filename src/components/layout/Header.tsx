@@ -72,11 +72,11 @@ export const Header = () => {
             All Books
           </NavLink>
           <NavLink
-            to="/book-summary"
+            to="/borrow-summary"
             className={active}
             onClick={handleHambarOpen}
           >
-            Book Summary
+            Borrow Summary
           </NavLink>
           <NavLink to="/books" className={active} onClick={handleHambarOpen}>
             Add Book
